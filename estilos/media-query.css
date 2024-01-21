@@ -10,13 +10,14 @@ DESKTOP: 992 até 1200px
 GRANDES TELAS: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width:992px) {
+@media screen and (min-width: 768px) and (max-width:992px) { /*CONFIGURAÇÃOES DE TABLET*/
     body{
          background-image: linear-gradient(to top, rgb(1, 1, 47), rgb(3, 130, 115));
     }
 
      section#login {
         width: 80vw;
+        height: 280px;
      }
 
      section#login > div#imagem {
@@ -31,13 +32,14 @@ GRANDES TELAS: acima de 1200px
      }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:992px) { /*CONFIGURAÇÕES DE DESKTOP*/
     body{
         background-image: linear-gradient(to top, rgb(3, 130, 115), rgb(1, 1, 47));
    }
 
     section#login{
         width: 950px;
+        height: 350px;
     }
     
     section#login > div#imagem{
@@ -56,7 +58,8 @@ GRANDES TELAS: acima de 1200px
     }
 
     div#formulario > p {
-        font-size: 1.3em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 
 }
